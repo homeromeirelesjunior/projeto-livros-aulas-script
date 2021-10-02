@@ -3,7 +3,6 @@ const consign = require('consign')
 
 // instanciando o servidor express
 server = express()
-
 server.set('porta', 3001)
 
 consign({ cwd: 'api' })
